@@ -1,0 +1,5 @@
+{
+  "image_url": "http://localhost:3000/images",
+  "image_dir": "/public/images",
+  "tmp_dir": "/public/images/tmp"
+}
