@@ -1,6 +1,6 @@
 {
   "name": "nijigen",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "private": true,
   "scripts": {
     "start": "node ./bin/www"
@@ -16,5 +16,18 @@
     "formidable": "~1.0.17",
     "morgan": "~1.6.1",
     "serve-favicon": "~2.3.0"
-  }
+  },
+  "description": "NiJiGen aims to be anonymous board in Node.js.",
+  "main": "app.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/akibarika/NiJiGen.git"
+  },
+  "author": "Akiba Rika <lxclxc89816@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/akibarika/NiJiGen/issues"
+  },
+  "homepage": "https://github.com/akibarika/NiJiGen#readme"
 }

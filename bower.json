@@ -1,0 +1,19 @@
+{
+  "name": "nijigen",
+  "version": "0.0.1",
+  "homepage": "https://github.com/akibarika/NiJiGen",
+  "authors": [
+    "Akiba Rika <lxclxc89816@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "material-design-lite": "~1.0.2"
+  }
+}
