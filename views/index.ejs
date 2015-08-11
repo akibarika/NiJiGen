@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html ng-app>
+<html>
 <head>
     <title><%= title %></title>
     <link rel='stylesheet' href='/stylesheets/style.css'/>
@@ -7,8 +7,13 @@
     <script src='/js/controller.js'></script>
     <script scr='/js/myAngularApp.js'></script>
 </head>
-<body ng-view>
-<h1><%= title %></h1>
+<body>
+<nav>
+    <div class="nav-wrapper">
+        <h1><%= title %></h1>
+    </div>
+</nav>
+
 
 <p>Welcome to <%= title %></p>
 
