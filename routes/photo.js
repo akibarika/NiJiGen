@@ -3,9 +3,6 @@ var router = express.Router();
 var photos = require('../controller/photos');
 var Photo = require('../models/Photo');
 
-
-
-
 router.get('/list', function (req, res, next) {
     Photo.find({}, function (err, photos) {
         if (err) return next(err);
@@ -22,6 +19,6 @@ router.get('/upload', function (req, res) {
     });
 });
 
-//router.post('/upload', photos.submit());
+router.post('/upload', photos.submit);
 
 module.exports = router;

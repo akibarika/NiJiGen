@@ -8,7 +8,6 @@ var bodyParser = require('body-parser');
 var routes = require('./routes/index');
 var users = require('./routes/users');
 var photo = require('./routes/photo');
-var photos = require('./controller/photos');
 var app = express();
 
 // view engine setup
@@ -22,12 +21,8 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
-app.set('photos', __dirname + '/public/photos');
 app.use('/', routes);
 app.use('/',photo);
-//app.get('/list',photos.list);
-//app.get('/upload', photos.form);
-app.post('/upload', photos.submit(app.get('photos')));
 app.use('/users', users);
 
 
